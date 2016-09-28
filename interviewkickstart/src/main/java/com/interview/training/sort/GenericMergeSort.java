@@ -71,7 +71,8 @@ public class GenericMergeSort {
         
         //sort two parts and merge
         List<T> m = merge( sort(aPart), sort(bPart));
-        System.out.println(m);
+       
+      
         return m;
     }
 }
