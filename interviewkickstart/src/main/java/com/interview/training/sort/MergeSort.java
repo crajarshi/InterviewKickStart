@@ -54,6 +54,7 @@ public class MergeSort {
         
         if( a.length <= 1) return a;
         int mid = (low + high)/2;
+        
         //break in two parts
         int aPart[] = Arrays.copyOfRange(a, low, mid);
         int bPart[] = Arrays.copyOfRange(a, mid, high);
